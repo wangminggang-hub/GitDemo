@@ -10,6 +10,7 @@ package com.selfdriving.strategy;
 public class CashNormal extends CashSuper {
     @Override
     Double acceptCash(double money) {
+
         return money;
     }
 }
