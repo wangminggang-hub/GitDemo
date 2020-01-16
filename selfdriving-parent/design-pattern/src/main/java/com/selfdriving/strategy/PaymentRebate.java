@@ -16,6 +16,9 @@ public class PaymentRebate implements Payment {
         return null;
     }
 
+
+
+    
     /**
      * @param count  商品数量
      * @param price  商品价格
