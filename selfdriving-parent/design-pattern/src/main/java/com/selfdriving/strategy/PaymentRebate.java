@@ -9,7 +9,6 @@ package com.selfdriving.strategy;
  */
 public class PaymentRebate implements Payment {
 
-
     @Override
     public Double pay(double bill) {
         Double d = 6d;
