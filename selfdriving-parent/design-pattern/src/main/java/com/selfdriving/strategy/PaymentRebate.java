@@ -11,9 +11,9 @@ public class PaymentRebate implements Payment {
 
     @Override
     public Double pay(double bill) {
-
-        return 2D;
+        return 888d;
     }
+
 
 
     
@@ -28,6 +28,7 @@ public class PaymentRebate implements Payment {
      * @Param
      **/
     public Double rebatePayment(int count, double price, double rebate) {
+
         return count * price * rebate;
     }
 
