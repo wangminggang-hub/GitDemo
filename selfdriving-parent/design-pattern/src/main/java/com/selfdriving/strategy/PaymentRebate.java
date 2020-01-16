@@ -12,7 +12,7 @@ public class PaymentRebate implements Payment {
     @Override
     public Double pay(double bill) {
 
-        return null;
+        return 2D;
     }
 
 
