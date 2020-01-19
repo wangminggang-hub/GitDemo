@@ -26,7 +26,7 @@ public class PaymentCalculator {
 
     //返现销售
     public Double productPaymentOfRebate() {
-
+//        String
         return 0d;
     }
 
