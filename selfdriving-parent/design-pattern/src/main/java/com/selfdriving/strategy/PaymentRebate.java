@@ -11,6 +11,7 @@ public class PaymentRebate implements Payment {
 
     @Override
     public Double pay(double bill) {
+        String str = "分支合并测试";
         return 0d;
     }
 
