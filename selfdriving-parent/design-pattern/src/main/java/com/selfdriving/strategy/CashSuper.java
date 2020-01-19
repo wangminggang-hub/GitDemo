@@ -9,6 +9,6 @@ package com.selfdriving.strategy;
  */
 public abstract class CashSuper {
 
-    //抽象方法
+    //抽象方法: 结账
     abstract Double acceptCash(double money);
 }
