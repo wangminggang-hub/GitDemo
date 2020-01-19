@@ -9,7 +9,7 @@ package com.selfdriving.strategy;
  */
 public class CashRebate extends CashSuper {
     @Override
-    Double acceptCash(double mony) {
-        return mony;
+    Double acceptCash(double money) {
+        return money;
     }
 }
