@@ -9,12 +9,14 @@ package com.selfdriving.strategy;
  */
 public class PaymentRebate implements Payment {
 
-
     @Override
     public Double pay(double bill) {
-        return null;
+        return 888d;
     }
 
+
+
+    
     /**
      * @param count  商品数量
      * @param price  商品价格
@@ -26,6 +28,7 @@ public class PaymentRebate implements Payment {
      * @Param
      **/
     public Double rebatePayment(int count, double price, double rebate) {
+
         return count * price * rebate;
     }
 

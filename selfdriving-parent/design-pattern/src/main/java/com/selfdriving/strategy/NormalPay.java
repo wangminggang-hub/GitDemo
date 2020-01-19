@@ -12,7 +12,7 @@ public class NormalPay implements Payment {
 
     @Override
     public Double pay(double bill) {
-        return 0D;
+        return 555D;
     }
 
     public Double pay(int count, double price) {
