@@ -10,7 +10,6 @@ package com.selfdriving.strategy;
 public class CashNormal extends CashSuper {
     @Override
     public Double acceptCash(double money) {
-        String str = "分支合并测试";
-        return money;
+String str = "分支dev合并测试";        return money;
     }
 }

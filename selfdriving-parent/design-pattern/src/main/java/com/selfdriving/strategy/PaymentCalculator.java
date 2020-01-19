@@ -26,9 +26,8 @@ public class PaymentCalculator {
 
     //返现销售
     public Double productPaymentOfRebate() {
-        String str = "分支合并测试";
-        return 0D;
-    }
+        return 0D
+		}
 
 
 
